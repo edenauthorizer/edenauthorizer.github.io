@@ -1,12 +1,28 @@
+h1 {
+    font-family: consolas;
+    display: block;
+    color: #4ecc28;
+    font-size: 2em;
+    margin-top: 0.60em;
+    margin-bottom: 0.60em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+p {
+    color: #4ecc28;
+}
+
 body{
 
+    text-align: center;
     margin: 0;
-    display: flex;
     padding: 0; 
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #000000;
+    background: hsl(0, 0%, 0%);
     font-family: consolas;
 }
 
@@ -21,7 +37,7 @@ a
     text-decoration: none;
     font-size: 20px;
     overflow: hidden;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 a:hover
