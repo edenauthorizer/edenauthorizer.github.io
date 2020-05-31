@@ -1,0 +1,32 @@
+body{
+
+    margin: 0;
+    display: flex;
+    padding: 0; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000000;
+    font-family: consolas;
+}
+
+a
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #4ecc28;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+a:hover
+{
+    color: #000000;
+    background: #4ecc28;
+    box-shadow: 0 0 10px #4ecc28, 0 0 20px #4ecc28, 0 0 30px #4ecc28;
+}
